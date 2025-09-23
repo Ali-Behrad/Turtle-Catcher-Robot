@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="turtle_catcher_bot" exec="turtle_spawner" name="turtle_spawner_node" />
+    <node pkg="turtle_catcher_bot" exec="turtle_controller" name="turtle_controller_node" />
+</launch>

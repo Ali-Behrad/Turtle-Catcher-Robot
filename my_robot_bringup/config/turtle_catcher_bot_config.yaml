@@ -1,0 +1,7 @@
+/turtle_spawner_node:
+  ros__parameters:
+    spawn_frequency: 1.0
+
+/turtle_controller_node:
+  ros__parameters:
+    starting_pose: [5.5, 5.5, 0.0, 0.0, 0.0]
